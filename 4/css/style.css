@@ -1,0 +1,45 @@
+.elementy-blokowe .p1 {
+    background-color: aqua;
+}
+
+.elementy-blokowe .p2 {
+    background-color: aquamarine;
+}
+
+.elementy-liniowe .inline-p1 {
+    background-color: green;
+}
+
+.elementy-liniowe .inline-p2 {
+    background-color: bisque;
+}
+
+.elementy-liniowe .inline-p1,
+.elementy-liniowe .inline-p2 {
+    display: inline;
+}
+
+.elementy-inline-block li {
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    background-color: azure;
+    margin: 10px;
+    border: blue solid 2px;
+}
+
+.elementy-display-none {
+    display: none;
+}
+
+.elementy-inline-block li:hover .sp1 {
+    display: none;
+}
+
+.elementy-inline-block .sp2 {
+    display: none;
+}
+
+.elementy-inline-block li:hover .sp2 {
+    display: inline;
+}
