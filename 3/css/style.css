@@ -6,6 +6,6 @@ div[detaliczny="tak"] {
     color: green;
 }
 
-div[detaliczny^="moze"] {
+.klient[detaliczny^="moze"] {
     color: yellow;
 }
