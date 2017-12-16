@@ -1,0 +1,35 @@
+.square {
+    width: 150px;
+    height: 150px;
+    margin: 0 auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.width {
+    background-color: dodgerblue;
+    transition: width 1s linear 0s;
+}
+
+.width:hover {
+    width: 300px;
+}
+
+.height {
+    background-color: bisque;
+    transition: height 1s linear 0s;
+}
+
+.height:hover {
+    height: 300px;
+}
+
+.both {
+    background-color: crimson;
+    transition: height 1s linear 0s, width 1s linear 0s;
+}
+
+.both:hover {
+    width: 300px;
+    height: 300px;
+}
